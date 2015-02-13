@@ -16,6 +16,8 @@ echo "nodemon installed sucessfully"
 echo "Installing grunt-cli"
 sudo npm install --silent -g grunt-cli
 echo "grunt-cli installed sucessfully"
+echo "Installing g++"
+sudo apt-get install g++ -q=2 --force-yes
 
 echo "Finishing up..."
 echo "Done!"
